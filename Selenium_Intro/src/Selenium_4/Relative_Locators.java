@@ -1,4 +1,4 @@
-package Selneium_4;
+package Selenium_4;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -28,7 +28,6 @@ public class Relative_Locators {
 		
 		WebElement radio = driver.findElement(By.cssSelector("input#inlineRadio1"));
 		System.out.println(driver.findElement(with(By.tagName("label")).toRightOf(radio)).getText());
-		
 		
 	}
 
