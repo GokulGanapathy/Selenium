@@ -10,7 +10,7 @@ public class dataDriven {
 	@Test(dataProvider="getExcelData")
 	public void testDataDriven(String tcName, String data1, String data2, String data3, String data4) {
 		
-		System.out.println(tcName+data1+data2+data3+data4);
+		System.out.println(tcName+" "+data1+" "+data2+" "+data3+" "+data4);
 	}
 	
 	@DataProvider

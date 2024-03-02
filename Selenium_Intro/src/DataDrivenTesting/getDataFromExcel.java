@@ -20,8 +20,8 @@ public class getDataFromExcel {
 	public Object[][] getData(String filePath,String sheetName) throws IOException {
 		
 		FileInputStream fis =  new FileInputStream(filePath);
-		
-		DataFormatter formatter =  new DataFormatter();		//To Format the Data in Excel
+		//To Format the Data from Excel
+		DataFormatter formatter =  new DataFormatter();		
 		
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);   // Considering we're using .xlsx format file 
 														 // - If its .xls format we have to use HSSFWorkbook
