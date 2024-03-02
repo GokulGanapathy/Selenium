@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_OOPS.test_Class">
+      <class name="DataDrivenTesting.dataDriven">
         <methods>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="beforeMethod"/>
-          <include name="testRun"/>
+          <include name="testDataDriven"/>
         </methods>
-      </class> <!-- testNG_OOPS.test_Class -->
+      </class> <!-- DataDrivenTesting.dataDriven -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
