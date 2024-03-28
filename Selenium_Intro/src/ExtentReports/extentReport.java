@@ -43,14 +43,14 @@ public class extentReport {
 		driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/loginpagePractise/");
 		System.out.println(driver.getTitle());
-		/*if(ITestResult.SUCCESS==1)
+		if(ITestResult.SUCCESS==1)
 		{
 			test.log(Status.PASS, MarkupHelper.createLabel("The Test got Passed", ExtentColor.GREEN));
 		}
 		else {
-			test.log(Status.FAIL,MarkupHelper.createLabel("The Test is Failed", ExtentColor.RED));
-		}*/
-		test.fail("The Test got Failed");	// Failing the test and ExtentTest will send the 
+			test.log(Status.FAIL, MarkupHelper.createLabel("The Test is Failed", ExtentColor.RED));
+		}
+		//test.fail("The Test got Failed");	// Failing the test and ExtentTest will send the 
 											// report as the TestMethod is failed and updates in ExtentReport
 	}
 	
